@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+/* banner style */
+.banner-container{
+    background:url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    height: 50%; 
+
+}
+.banner{
+    padding-left: 1000px;
+    padding-right: 200px;
+    text-align: right ;
+}
+.profile-img{
+    margin-top: 5%;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 180px;
+
+}
+.banner-description{
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 35px;
+
+}
+
+.btn-primary{
+font-size: 25px;
+font-weight:600;
+color: #005fac;
+line-height: 23px;
+border-radius: 9px;
+border: none;
+padding: 15px;
+margin-bottom: 150px;
+
+}  
+ /*failure part  */
+.failure{
+    display:flex ;
+    gap: 200px;
+}
+.fail-title{
+    font-size: 35px;
+    color: black;
+}
+.profile-img{
+    padding-left:10%;
+}
+.fail-description{
+    margin-left:8%;
+}
+
+.faile-list{
+    margin-top: 18%;
+}
+    /* icon part */
+    .plan{
+        padding-left: 45%;
+        padding-top: 10%;
+        font-size: 25px;
+    }
+    .plane-name{
+        display: flex;
+        gap: 35px;
+        margin-left: 30%;
+        padding-top:30px;
+        font-size: 19px;
+        text-align: center;
+        /*  minddset part*/
+    }
+     
+.mindset-contain{
+background-image: url('../images/gradient1.png' ), url('../images/watch.png');
+background-repeat: no-repeat;
+background-position: center;
+height: 300px;
+width: 1140px;
+border-radius: 8px;
+margin-left: 350px;
+padding-top: 10%;
+}
+.mindset-title{
+    padding: 40px;
+    color: white;
+}
+.btn-mind{
+    height: 23px;
+    width: 88px;
+color: #1743a1;
+line-height: 5px;
+border-radius: 9px;
+border: none;
+padding: 15px;
+margin-left:48px;
+}
+/* contact section */
+
+.future-title{
+    height: 53px;
+width: 148px;
+color: white;
+}
+
+.future-description{
+    height: 78px;
+width: 485px;
+color: white;
+}
+.contact-container{
+    display: flex;
+    gap: 300px;
+    background-color: black;
+    color: white;
+   padding-left: 350px;
+   padding-right: 250px;
+   padding-top: 150px;
+   padding-bottom: 200px;
+
+}
+/* future part */
+.future-title{
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+.contact-num{
+    padding-bottom: 20px;
+}
+.future-description{
+   padding-bottom: 20px; 
+}
+.section-title{
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+.email{
+    height: 50px;
+    width: 400px;
+    border-radius: 8px;
+    border: none;
+}
+.submit-btn{
+    height: 50px;
+    width: 150px;
+margin-top: 20px;
+background-color:#005fac;
+font-size: 20px;
+color: white;
+border-radius: 8px;
+}
